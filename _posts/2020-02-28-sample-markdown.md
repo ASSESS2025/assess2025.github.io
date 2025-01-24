@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
+title: Call for Papers
+subtitle:
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
@@ -9,6 +9,16 @@ comments: true
 mathjax: true
 author: Bill Smith
 ---
+We invite theoretical, empirical, and case study papers that address the following topics:
+
+{: .box-success}
+Spatial assessment and modeling of socio-ecological systems in urban environments.
+Implementation and impact of green and blue infrastructures on sustainable urban development.
+Application of GIS-MCDA and SDSS tools for decision-making in spatial planning.
+Data-driven approaches and spatial econometrics in urban ecosystem services and landscape assessment.
+Innovative urban modeling techniques and spatial data analysis that support sustainable urban policy and development.
+Authors are encouraged to submit contributions that integrate scientific, technological, and practical insights into the complex socio-ecological challenges of urban development. Selected papers will be featured in our proceedings, fostering interdisciplinary dialogue on the use of spatial data and analysis in promoting sustainable cities.
+
 
 {: .box-success}
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
