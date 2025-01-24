@@ -19,10 +19,10 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --mid-col: #808080;
-}
+  --body-font: 'Nunito', Arial, sans-serif;
+  --header-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --mid-col: #2c3e50; /* A rich dark blue-gray for professionalism */
+
 
 /* --- General --- */
 
