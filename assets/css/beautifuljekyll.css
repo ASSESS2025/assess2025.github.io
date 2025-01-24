@@ -1124,27 +1124,31 @@ pre {
   }
 }
 
+
+/* --- Custom Section Styles --- */
+
+/* Flip text and background colors for the #cta section */
 #cta {
-  background-color: var(--text-col); /* Use the text color as background */
-  color: var(--page-col);           /* Use the page background color for text */
-  text-align: center;               /* Center-align text */
-  padding: 2rem;                    /* Add padding for spacing */
-  border-radius: 8px;               /* Optional: rounded corners */
+  background-color: var(--text-col, #404040); /* Fallback to #404040 if --text-col is not set */
+  color: var(--page-col, #F9EBE0);            /* Fallback to #F9EBE0 if --page-col is not set */
+  text-align: center;                        /* Center-align text */
+  padding: 2rem;                             /* Add padding for spacing */
+  border-radius: 8px;                        /* Optional: rounded corners */
 }
 
 /* Style for the button in #cta */
 #cta .button {
-  background-color: var(--link-col);   /* Link color for button background */
-  color: var(--page-col);             /* Page color for button text */
-  padding: 0.8rem 1.5rem;             /* Button padding */
-  text-decoration: none;              /* Remove underline */
-  border-radius: 5px;                 /* Rounded button corners */
-  font-weight: bold;                  /* Bold button text */
+  background-color: var(--link-col, #008AFF);   /* Fallback to #008AFF if --link-col is not set */
+  color: var(--page-col, #F9EBE0);             /* Fallback to #F9EBE0 if --page-col is not set */
+  padding: 0.8rem 1.5rem;                     /* Button padding */
+  text-decoration: none;                      /* Remove underline */
+  border-radius: 5px;                         /* Rounded button corners */
+  font-weight: bold;                          /* Bold button text */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
 /* Hover effect for the button */
 #cta .button:hover {
-  background-color: var(--hover-col); /* Use hover color for button background */
-  color: var(--text-col);            /* Use text color for button text */
+  background-color: var(--hover-col, #0085A1); /* Fallback to #0085A1 if --hover-col is not set */
+  color: var(--text-col, #404040);            /* Fallback to #404040 if --text-col is not set */
 }
