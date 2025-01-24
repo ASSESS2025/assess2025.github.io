@@ -18,11 +18,11 @@ layout: null
   --footer-link-col: {{ site.footer-link-col | default: "#404040" }};
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
- /* common CSS variables */
-  --body-font: 'Source Sans Pro', Arial, sans-serif; /* Body font changed to Source Sans Pro */
-  --header-font: 'Playfair Display', 'Georgia', serif; /* Header font changed to Playfair Display */
-  --mid-col: #2c3e50; /* A rich dark blue-gray for professionalism */
+/* common CSS variables */
+  --body-font: 'Nunito', Arial, sans-serif;
+  --header-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+  --mid-col: #2c3e50; /* A rich dark blue-gray for professionalism */
 
 
 /* --- General --- */
