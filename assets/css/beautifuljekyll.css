@@ -35,16 +35,24 @@ body {
   font-size: 1.125rem;
   color: var(--text-col);
   position: relative;
-  background: radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), rgb(255 0 0 / 0%) 70.71%); /* Radial gradient only */
-  
-  {% if site.page-img %}
-  background-image: 
-      url({{ site.page-img | relative_url }}), /* Background image */
-      radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), rgb(255 0 0 / 0%) 70.71%);
-  background-attachment: fixed;
-  {% endif %}
-  
-  overflow-wrap: break-word;
+  background:
+    radial-gradient(
+      circle at 50% 0,
+      rgba(var(--page-col), 50%), /* Using --page-col with 50% opacity */
+      rgba(var(--page-col), 0%) 70.71%
+    ),
+    radial-gradient(
+      circle at 6.7% 75%,
+      rgba(var(--hover-col), 50%), /* Using --hover-col with 50% opacity */
+      rgba(var(--hover-col), 0%) 70.71%
+    ),
+    radial-gradient(
+      circle at 93.3% 75%,
+      rgba(var(--link-col), 50%), /* Using --link-col with 50% opacity */
+      rgba(var(--link-col), 0%) 70.71%
+    );
+  border-radius: 50%;
+    overflow-wrap: break-word;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
