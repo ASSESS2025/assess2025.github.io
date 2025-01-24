@@ -19,16 +19,16 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
  /* common CSS variables */
---body-font: 'Source Sans Pro', Arial, sans-serif; /* Body font changed to Source Sans Pro */
---header-font: 'Playfair Display', 'Georgia', serif; /* Header font changed to Playfair Display */
---mid-col: #2c3e50; /* A rich dark blue-gray for professionalism */
+  --body-font: 'Source Sans Pro', Arial, sans-serif; /* Body font changed to Source Sans Pro */
+  --header-font: 'Playfair Display', 'Georgia', serif; /* Header font changed to Playfair Display */
+  --mid-col: #2c3e50; /* A rich dark blue-gray for professionalism */
 
 
 
 /* --- General --- */
 
 html {
-  font-size: 100%
+  font-size: 90%
 }
 
 body {
