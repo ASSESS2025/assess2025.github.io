@@ -135,17 +135,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#F9EBE0"  # Soft, warm background color (light beige)
-text-col: "#404040"  # Dark gray text for good readability
-link-col: "#1E555C"  # Deep teal for links (subtle but elegant)
-hover-col: "#0085A1"  # Bright turquoise for link hover effect
-navbar-col: "#F15152"  # Bold red for the navbar, stands out but remains professional
-navbar-text-col: "#404040"  # Dark gray text for the navbar (ensures readability)
-navbar-border-col: "#DDDDDD"  # Light gray border for subtle separation
-footer-col: "#F15152"  # Bold red for the footer to tie with the navbar
-footer-text-col: "#777777"  # Light gray footer text, softer on the eyes
-footer-link-col: "#404040"  # Dark gray footer links, consistent with the main text
-footer-hover-col: "#0085A1"  # Matching turquoise hover effect for footer links
+page-col: "#FFFFFF"  # Clean, bright white for a modern background
+text-col: "#2C3E50"  # Deep navy for strong readability and a professional look
+link-col: "#3498DB"  # Bright blue for an approachable and fresh link color
+hover-col: "#1ABC9C"  # Light teal for an engaging hover effect
+navbar-col: "#34495E"  # Steely gray-blue for a sophisticated navbar
+navbar-text-col: "#ECF0F1"  # Soft off-white for navbar text to contrast with the dark background
+navbar-border-col: "#BDC3C7"  # Light silver-gray for subtle navbar borders
+footer-col: "#2C3E50"  # Deep navy to balance the footer with the text
+footer-text-col: "#95A5A6"  # Cool gray for footer text to feel fresh but understated
+footer-link-col: "#3498DB"  # Matching bright blue for footer links
+footer-hover-col: "#1ABC9C"  # Teal hover for links, consistent with the main hover effect
+
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
