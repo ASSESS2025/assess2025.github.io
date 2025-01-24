@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: ASSESS2025
 
 # Your name to show in the footer
-author: Some Person
+author: Daniele Cannatella
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -84,7 +84,7 @@ social-network-links:
 #  untappd: yourname
 
 # If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
+# The URL for the feed will be https://assess2025/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
