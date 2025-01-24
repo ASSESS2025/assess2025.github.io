@@ -135,17 +135,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#F9EBE0"
-text-col: "#404040"
-link-col: "#1E555C"
-hover-col: "#0085A1"
-navbar-col: "#F15152"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#F15152"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#F9EBE0"  # Soft, warm background color (light beige)
+text-col: "#404040"  # Dark gray text for good readability
+link-col: "#1E555C"  # Deep teal for links (subtle but elegant)
+hover-col: "#0085A1"  # Bright turquoise for link hover effect
+navbar-col: "#F15152"  # Bold red for the navbar, stands out but remains professional
+navbar-text-col: "#404040"  # Dark gray text for the navbar (ensures readability)
+navbar-border-col: "#DDDDDD"  # Light gray border for subtle separation
+footer-col: "#F15152"  # Bold red for the footer to tie with the navbar
+footer-text-col: "#777777"  # Light gray footer text, softer on the eyes
+footer-link-col: "#404040"  # Dark gray footer links, consistent with the main text
+footer-hover-col: "#0085A1"  # Matching turquoise hover effect for footer links
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
