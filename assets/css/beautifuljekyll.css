@@ -1132,7 +1132,9 @@ pre {
   background-color: var(--text-col, #404040); /* Fallback to #404040 if --text-col is not set */
   color: var(--page-col, #F9EBE0);            /* Fallback to #F9EBE0 if --page-col is not set */
   text-align: center;                        /* Center-align text */
-  padding: 2rem;                             /* Add padding for spacing */
+  padding: 40px 20px; /* Add more padding for top/bottom (40px) and left/right (20px) */
+  margin-top: 50px; /* Add more space above the section */
+  margin-bottom: 50px; /* Add more space below the section */
   border-radius: 8px;                        /* Optional: rounded corners */
 }
 
