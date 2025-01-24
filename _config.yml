@@ -20,8 +20,9 @@ author: Daniele Cannatella
 ###############################################
 
 navbar-links:
+  about ASSESS: "aboutassess"
   ICCSA 2025: "https://iccsa.org/call-for-papers"
-  About Me: "aboutme"
+  
   # Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
