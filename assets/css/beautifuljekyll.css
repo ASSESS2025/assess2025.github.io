@@ -38,24 +38,25 @@ body {
   background:
     radial-gradient(
       circle at 50% 0,
-      rgba(var(--page-col), 50%), /* Using --page-col with 50% opacity */
-      rgba(var(--page-col), 0%) 70.71%
+      rgba(var(--page-col), 50%),   /* Soft White at 50% opacity */
+      rgba(var(--page-col), 0%) 70.71% /* Transparent White */
     ),
     radial-gradient(
-      circle at 6.7% 75%,
-      rgba(var(--hover-col), 50%), /* Using --hover-col with 50% opacity */
-      rgba(var(--hover-col), 0%) 70.71%
+      circle at 6.7% 75%, 
+      rgba(var(--link-col), 50%),   /* Bright Blue at 50% opacity */
+      rgba(var(--link-col), 0%) 70.71% /* Transparent Bright Blue */
     ),
     radial-gradient(
-      circle at 93.3% 75%,
-      rgba(var(--link-col), 50%), /* Using --link-col with 50% opacity */
-      rgba(var(--link-col), 0%) 70.71%
+      circle at 93.3% 75%, 
+      rgba(var(--hover-col), 50%),  /* Muted Blue at 50% opacity */
+      rgba(var(--hover-col), 0%) 70.71% /* Transparent Muted Blue */
     );
   border-radius: 50%;
-    overflow-wrap: break-word;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: rgba(var(--text-col), 1);  /* Dark Gray text */
+  background-attachment: fixed; /* Ensures background remains fixed */
 }
 
 body > main {
