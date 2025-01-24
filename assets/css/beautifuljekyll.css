@@ -1123,3 +1123,29 @@ pre {
     display: inline-block;
   }
 }
+
+/* Flip text and background colors for the #cta section */
+#cta {
+  background-color: var(--text-col); /* Use the text color as background */
+  color: var(--page-col);           /* Use the page background color for text */
+  text-align: center;               /* Center-align text */
+  padding: 2rem;                    /* Add padding for spacing */
+  border-radius: 8px;               /* Optional: rounded corners */
+}
+
+/* Style for the button in #cta */
+#cta .button {
+  background-color: var(--link-col);   /* Link color for button background */
+  color: var(--page-col);             /* Page color for button text */
+  padding: 0.8rem 1.5rem;             /* Button padding */
+  text-decoration: none;              /* Remove underline */
+  border-radius: 5px;                 /* Rounded button corners */
+  font-weight: bold;                  /* Bold button text */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the button */
+#cta .button:hover {
+  background-color: var(--hover-col); /* Use hover color for button background */
+  color: var(--text-col);            /* Use text color for button text */
+}
