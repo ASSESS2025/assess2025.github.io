@@ -35,31 +35,13 @@ body {
   font-size: 1.125rem;
   color: var(--text-col);
   position: relative;
-  background: linear-gradient(
-      135deg,
-      var(--page-col), 
-      var(--hover-col) /* Default gradient */
-    );
+  background: radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), rgb(255 0 0 / 0%) 70.71%); /* Radial gradient only */
   
-  {% if site.page-img %} 
+  {% if site.page-img %}
   background-image: 
       url({{ site.page-img | relative_url }}), /* Background image */
-      linear-gradient(
-        217deg,
-        rgb(255 0 0 / 80%), /* Red gradient */
-        rgb(255 0 0 / 0%) 70.71%
-      ),
-      linear-gradient(
-        127deg,
-        rgb(0 255 0 / 80%), /* Green gradient */
-        rgb(0 255 0 / 0%) 70.71%
-      ),
-      linear-gradient(
-        336deg,
-        rgb(0 0 255 / 80%), /* Blue gradient */
-        rgb(0 0 255 / 0%) 70.71%
-      ); /* Add your multi-gradient stacked effect */
-  background-attachment: fixed; /* Keeps the image fixed */
+      radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), rgb(255 0 0 / 0%) 70.71%);
+  background-attachment: fixed;
   {% endif %}
   
   overflow-wrap: break-word;
@@ -67,7 +49,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 body > main {
   flex: 1;
