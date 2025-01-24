@@ -1124,7 +1124,6 @@ pre {
   }
 }
 
-/* Flip text and background colors for the #cta section */
 #cta {
   background-color: var(--text-col); /* Use the text color as background */
   color: var(--page-col);           /* Use the page background color for text */
